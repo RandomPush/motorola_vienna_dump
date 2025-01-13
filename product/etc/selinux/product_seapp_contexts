@@ -1,0 +1,8 @@
+user=_app isPrivApp=true name=com.thundercomm.ar.core domain=arcore_app type=privapp_data_file levelFrom=user
+user=_app isPrivApp=true seinfo=common domain=moto_stylus_app name=com.motorola.stylus type=app_data_file levelFrom=user
+user=_app isPrivApp=true seinfo=common domain=moto_stylus_app name=com.motorola.stylus.* type=app_data_file levelFrom=user
+user=_app isPrivApp=true seinfo=common domain=moto_stylus_app name=com.motorola.stylus:* type=app_data_file levelFrom=user
+user=_app isPrivApp=true seinfo=common domain=moto_gamemode_app name=com.motorola.gamemode type=app_data_file levelFrom=user
+user=_app isPrivApp=true seinfo=common2 domain=moto_gamemode_app name=com.motorola.gamemode type=app_data_file levelFrom=user
+user=_app isPrivApp=true seinfo=common2 domain=moto_secure_vault_app name=com.motorola.securevault type=app_data_file levelFrom=user
+user=_app seinfo=platform isPrivApp=true domain=moto_sar_app name=com.motorola.sarcontrol type=app_data_file levelFrom=user
