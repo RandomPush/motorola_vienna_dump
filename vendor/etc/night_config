@@ -1,0 +1,51 @@
+{
+  //                   back      |   front      |    tele      |    wide
+  "imagers" :     [ "mot_vienna_imx896_mipi_raw",  "mot_vienna_s5kjd1_mipi_raw",   "mot_vienna_s5k3k1_mipi_raw",   "mot_vienna_gc13a2_mipi_raw"],
+  "camera-type" : [ "back-main",   "front-main",   "back-tele",   "back-wide"],
+  "mfnr-night" : {
+    "params-dynamic" : [
+         { // default
+           "lux-upper" :          [ 20.0,       20.0,       20.0,       20.0  ],
+           "lux-lower" :          [ 0.0,        0.0,        0.0,        0.0   ],
+           "normal-ev" :          [ 0,          0,          0,          0     ],
+           "ev-exp-time" :        [ 0,          0,          0,          0     ]
+         },
+         { // 1st
+           "lux-upper" :          [ 0.8,        0.8,        0.8,        0.8   ],
+           "lux-lower" :          [ 0,          0,          0,          0     ],
+           "normal-ev" :          [ 4,          4,          4,          4     ],
+           "ev-exp-time" :        [ 144,        125,        144,        144   ]
+         },
+         { // 2th
+          "lux-upper" :           [ 3.0,        3.0,      3.0,      3.0 ],
+          "lux-lower" :           [ 0.8,        0.8,      0.8,      0.8 ],
+          "normal-ev" :           [ 3,          3,        3,        3   ],
+          "ev-exp-time" :         [ 144,        125,      144,      144 ]
+         },
+         { // 3st
+           "lux-upper" :          [ 5.0,        5.0,        5.0,        5.0   ],
+           "lux-lower" :          [ 3.0,        3.0,        3.0,        3.0   ],
+           "normal-ev" :          [ 3,          3,          3,          3     ],
+           "ev-exp-time" :        [ 140,        100,        140,        140   ]
+         },
+         { // 4nd
+           "lux-upper" :          [ 15.0,       15.0,       15.0,       15.0   ],
+           "lux-lower" :          [ 5.0,        5.0,        5.0,        5.0   ],
+           "normal-ev" :          [ 2,          2,          2,          2     ],
+           "ev-exp-time" :        [ 120,        86,         120,        120    ]
+         },
+         { // 5rd
+           "lux-upper" :          [ 300.0,       300.0,       300.0,       300.0 ],
+           "lux-lower" :          [ 15.0,        15.0,        15.0,        15.0  ],
+           "normal-ev" :          [ 2,          2,          2,          2    ],
+           "ev-exp-time" :        [ 100,        66,        103,        103   ]
+         },
+         { // 6th
+           "lux-upper" :          [ 2000.0,     2000.0,     2000.0,     2000.0 ],
+           "lux-lower" :          [ 300.0,      300.0,      300.0,      300.0 ],
+           "normal-ev" :          [ 1,         1,         1,         1    ],
+           "ev-exp-time" :        [ 83,        50,        83,        83   ]
+         }
+   ]
+  }
+}

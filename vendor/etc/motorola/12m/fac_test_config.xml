@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+    <SKUTAG>ro.vendor.hw.radio</SKUTAG>
+    <SETTINGS mode="MENU">
+        <DISPLAY_SETTINGS>DISPLAY_X_OFFSET=1,DISPLAY_Y_OFFSET=1</DISPLAY_SETTINGS>
+        <AUDIO_SETTINGS>LENGTH=6,SAMPLE_RATE=44100,START_FREQ=100,END_FREQ=1000,VOLUME=10400</AUDIO_SETTINGS>
+        <DISPLAY_BORDER_LINE_SETTINGS>START_X=117-1193-1077-2,START_Y=4-102-2665-2540,STOP_X=1087-1193-125-2,STOP_Y=4-2560-2665-122,DEFAULT_COUNT=256</DISPLAY_BORDER_LINE_SETTINGS>
+        <DISPLAY_BORDER_ARC_SETTINGS>START_X=4-1085-1193-128,START_Y=125-6-2557-2665,STOP_X=117-1193-1065-3, STOP_Y=5-104-2665-2540,RADIUS=136-141-128-134</DISPLAY_BORDER_ARC_SETTINGS>
+        <IGNORED_MICS>PRIMARY_MIC_LOW_PWR,SECONDARY_MIC_LOW_PWR,TERTIARY_MIC_LOW_PWR,HEADSET_MIC_LOW_PWR,MIC_4_LOW_PWR,MIC_5_LOW_PWR,TERTIARY_MIC,MIC_4,MIC_5,CAMCORDER_MIC</IGNORED_MICS>
+        <FPC_IMAGE_QUALITY_ITERATIONS>ITERATIONS=10</FPC_IMAGE_QUALITY_ITERATIONS>
+        <KEYTEST_SETTINGS>KEYS_TO_TEST=25:24:26</KEYTEST_SETTINGS>
+        <FMRADIO_SETTINGS>DEFAULT_FREQUENCY=92.7</FMRADIO_SETTINGS>
+        <FPC_CONNECTION_TEST>CAMERA,MIC_1</FPC_CONNECTION_TEST>
+        <WIRELESS_CHARGE>chip_id=0x4038</WIRELESS_CHARGE>
+        <CAMERA_NICKNAME_0>mot_vienna_imx896_mipi_raw</CAMERA_NICKNAME_0>
+        <CAMERA_NICKNAME_1>mot_vienna_s5kjd1_mipi_raw</CAMERA_NICKNAME_1>
+        <CAMERA_NICKNAME_2>mot_vienna_gc13a2_mipi_raw</CAMERA_NICKNAME_2>
+        <CAMERA_NICKNAME_3>mot_vienna_s5k3k1_mipi_raw</CAMERA_NICKNAME_3>
+        <MIC_LIMIT>FREQ=300,AMPL=-75</MIC_LIMIT>
+        <GRAY_SCALE2>BRIGHTNESS=1.18,RGB_VALUE=32</GRAY_SCALE2>
+        <FRONTLIGHT_SETTINGS>NO_CHARGELED</FRONTLIGHT_SETTINGS>
+        <STANDARD_FAST_CHARGING_RATE>68</STANDARD_FAST_CHARGING_RATE>
+        <IS_NOT_CONTROL_CAPTURE_FAILED>TRUE</IS_NOT_CONTROL_CAPTURE_FAILED>
+        <SIM1>READY</SIM1>
+        <SIM2>READY,NOT_READY</SIM2>
+        <FOD_ICON>X=600,Y=2392,REFRESH_RATE=120,RADIUS=117,Y_OFFSET=0</FOD_ICON>
+	<FOD_ICON_CENTER_XY>X=600,Y=2392,REFRESH_RATE=120,RADIUS=117,Y_OFFSET=0</FOD_ICON_CENTER_XY>
+    </SETTINGS>
+    <MENU>
+        <com.motorola.motocit.camera2.AntennaResultAuto/>
+        <com.motorola.motocit.camera2.Camera2AntennaAuto/>
+        <com.motorola.motocit.audio.AudioEar/>
+        <com.motorola.motocit.audio.AudioPlayMediaFile2/>
+        <com.motorola.motocit.audio.AudioMicAnalyze/>
+        <com.motorola.motocit.audio.AudioLoopBack/>
+        <com.motorola.motocit.audio.AudioPlayBack/>
+        <com.motorola.motocit.barcode.Barcode/>
+        <!--    <com.motorola.motocit.barometer.Barometer/> -->
+        <!--    <com.motorola.motocit.barometer.BarometerAccuracyTest/> -->
+        <com.motorola.motocit.battery.BatteryInfo/>
+        <com.motorola.motocit.battery.BatteryLotXInfo/>
+        <com.motorola.motocit.bluetooth.BluetoothMac/>
+        <com.motorola.motocit.bluetooth.BluetoothScan/>
+        <com.motorola.motocit.camera2.Rear3ViewfinderStrobe/>
+        <com.motorola.motocit.camera2.Rear3Viewfinder/>
+        <com.motorola.motocit.camera2.Rear3VideoCapture/>
+        <com.motorola.motocit.camera2.Rear2ViewfinderStrobe/>
+        <com.motorola.motocit.camera2.Rear2Viewfinder/>
+        <com.motorola.motocit.camera2.Rear2VideoCapture/>
+        <com.motorola.motocit.camera2.Rear1ViewfinderTorch/>
+        <com.motorola.motocit.camera2.Rear1ViewfinderStrobe/>
+        <com.motorola.motocit.camera2.Rear1Viewfinder/>
+        <com.motorola.motocit.camera2.Rear1VideoCapture/>
+        <com.motorola.motocit.camera2.Front1ViewfinderStrobe/>
+        <com.motorola.motocit.camera2.Front1Viewfinder/>
+        <com.motorola.motocit.camera2.Front1VideoCapture/>
+        <com.motorola.motocit.display.DisplayPanelId/>
+        <com.motorola.motocit.display.testPatterns.BlackWithWhiteBorder2/>
+        <com.motorola.motocit.display.testPatterns.WhiteWithBlackBorder/>
+        <com.motorola.motocit.display.testPatterns.BlackPattern/>
+        <com.motorola.motocit.display.testPatterns.Grayscale/>
+        <com.motorola.motocit.display.testPatterns.Grayscale2/>
+        <com.motorola.motocit.display.testPatterns.Bright/>
+        <com.motorola.motocit.display.testPatterns.Medium/>
+        <com.motorola.motocit.display.testPatterns.XtalkInterferingHorizontal/>
+        <com.motorola.motocit.display.testPatterns.XtalkInterferingVertical/>
+        <com.motorola.motocit.display.testPatterns.XtalkR/>
+        <com.motorola.motocit.gps.GPS/>
+        <com.motorola.motocit.headset.HeadsetInfo/>
+        <com.motorola.motocit.key.KeyTest/>
+        <!--    <com.motorola.motocit.led.ChargeLED/> -->
+        <com.motorola.motocit.nfc.NFCTest/>
+        <com.motorola.motocit.database.RunInTestResult/>
+        <com.motorola.motocit.gps.GPS/>
+        <com.motorola.motocit.accel.Accel/>
+        <com.motorola.motocit.capsense.CapsenseMul/>
+        <com.motorola.motocit.dualfps.DualFodCheckCalData/>
+        <com.motorola.motocit.dualfps.DualFodSelfTest/>
+        <com.motorola.motocit.dualfps.DualFodSMTP/>
+        <com.motorola.motocit.light.FrontLight/>
+        <com.motorola.motocit.gyroscope.Gyroscope/>
+        <com.motorola.motocit.mag.Magnetometer/>
+        <com.motorola.motocit.proximity.Proximity/>
+        <com.motorola.motocit.simcard.SIMCard/>
+        <com.motorola.motocit.systemtime.SystemTime/>
+        <com.motorola.motocit.touchpanel.Touch_TP/>
+        <com.motorola.motocit.touchscreen.Touch_Diagonal/>
+        <com.motorola.motocit.touchscreen.Touch_MXT224/>
+        <com.motorola.motocit.hostmode.Hostmode/>
+        <com.motorola.motocit.usb.UsbTypeC/>
+        <com.motorola.motocit.version.Version/>
+        <com.motorola.motocit.vibrator.VibratorTest/>
+        <com.motorola.motocit.wirelesscharge.WirelessChargingInfo/>
+        <com.motorola.motocit.wlan.ScanNetwork/>
+        <com.motorola.motocit.wlan.WifiRxTest/>
+        <com.motorola.motocit.wlan.WifiTxTest/>
+    </MENU>
+    <ALT>
+        <com.motorola.motocit.version.Version/>
+    </ALT>
+    <LDA1>
+        <com.motorola.motocit.touchscreen.Touch_MXT224/>
+        <com.motorola.motocit.display.testPatterns.WhiteWithBlackBorder/>
+    </LDA1>
+    <LDA2>
+        <com.motorola.motocit.display.DisplayPanelId/>
+        <com.motorola.motocit.touchscreen.Touch_MXT224/>
+        <com.motorola.motocit.display.testPatterns.WhiteWithBlackBorder/>
+        <com.motorola.motocit.display.testPatterns.BlackWithWhiteBorder2/>
+        <com.motorola.motocit.display.testPatterns.Grayscale/>
+    </LDA2>
+    <LDA3>
+        <com.motorola.motocit.touchscreen.Touch_MXT224/>
+        <com.motorola.motocit.display.testPatterns.WhiteWithBlackBorder/>
+        <com.motorola.motocit.display.testPatterns.BlackWithWhiteBorder2/>
+        <com.motorola.motocit.display.testPatterns.Grayscale/>
+    </LDA3>
+    <LDA4>
+        <com.motorola.motocit.touchscreen.Touch_MXT224/>
+        <com.motorola.motocit.display.testPatterns.WhiteWithBlackBorder/>
+        <com.motorola.motocit.display.testPatterns.Grayscale/>
+    </LDA4>
+    <LDA5>
+        <com.motorola.motocit.touchscreen.Touch_MXT224/>
+        <com.motorola.motocit.display.testPatterns.WhiteWithBlackBorder/>
+        <com.motorola.motocit.display.testPatterns.BlackWithWhiteBorder2/>
+        <com.motorola.motocit.display.testPatterns.Grayscale/>
+    </LDA5>
+    <LDA6>
+        <com.motorola.motocit.key.KeyTest/>
+        <com.motorola.motocit.touchscreen.Touch_MXT224_Styluspen/>
+    </LDA6>
+    <LDA7>
+        <com.motorola.motocit.display.testPatterns.WhiteWithBlackBorder/>
+        <com.motorola.motocit.touchscreen.Touch_MXT224/>
+    </LDA7>
+    <MMI>
+        <com.motorola.motocit.headset.HeadsetInfo/>
+        <com.motorola.motocit.key.KeyTest/>
+        <!--    <com.motorola.motocit.led.ChargeLED/> -->
+        <com.motorola.motocit.bluetooth.BluetoothScan/>
+        <com.motorola.motocit.bluetooth.BluetoothMac/>
+        <com.motorola.motocit.audio.AudioEar/>
+        <com.motorola.motocit.audio.AudioPlayMediaFile2/>
+        <com.motorola.motocit.audio.AudioMicAnalyze/>
+        <com.motorola.motocit.audio.AudioLoopBack/>
+        <com.motorola.motocit.audio.AudioPlayBack/>
+        <!--    <com.motorola.motocit.barometer.Barometer/> -->
+        <com.motorola.motocit.systemtime.SystemTime/>
+        <com.motorola.motocit.simcard.SIMCard/>
+        <com.motorola.motocit.version.Version/>
+        <com.motorola.motocit.display.testPatterns.Medium/>
+        <com.motorola.motocit.display.testPatterns.Bright/>
+        <com.motorola.motocit.display.testPatterns.Grayscale/>
+        <com.motorola.motocit.display.testPatterns.BlackPattern/>
+        <com.motorola.motocit.display.testPatterns.WhiteWithBlackBorder/>
+        <com.motorola.motocit.display.testPatterns.BlackWithWhiteBorder2/>
+        <com.motorola.motocit.touchscreen.Touch_MXT224/>
+        <com.motorola.motocit.light.FrontLight/>
+        <com.motorola.motocit.proximity.Proximity/>
+        <com.motorola.motocit.mag.Magnetometer/>
+        <com.motorola.motocit.gyroscope.Gyroscope/>
+        <com.motorola.motocit.accel.Accel/>
+        <com.motorola.motocit.wlan.ScanNetwork/>
+        <com.motorola.motocit.vibrator.VibratorTest/>
+        <com.motorola.motocit.hostmode.Hostmode/>
+        <com.motorola.motocit.camera2.Front1VideoCapture/>
+        <com.motorola.motocit.camera2.Front1Viewfinder/>
+        <com.motorola.motocit.camera2.Front1ViewfinderStrobe/>
+        <com.motorola.motocit.camera2.Rear1VideoCapture/>
+        <com.motorola.motocit.camera2.Rear1Viewfinder/>
+        <com.motorola.motocit.camera2.Rear1ViewfinderStrobe/>
+        <com.motorola.motocit.camera2.Rear1ViewfinderTorch/>
+        <com.motorola.motocit.camera2.Rear2VideoCapture/>
+        <com.motorola.motocit.camera2.Rear2Viewfinder/>
+        <com.motorola.motocit.camera2.Rear2ViewfinderStrobe/>
+        <com.motorola.motocit.camera2.Rear3VideoCapture/>
+        <com.motorola.motocit.camera2.Rear3Viewfinder/>
+        <com.motorola.motocit.camera2.Rear3ViewfinderStrobe/>
+        <com.motorola.motocit.nfc.NFCTest/>
+        <com.motorola.motocit.capsense.CapsenseMul/>
+        <com.motorola.motocit.gps.GPS/>
+        <com.motorola.motocit.battery.BatteryInfo/>
+        <com.motorola.motocit.usb.UsbTypeC/>
+        <com.motorola.motocit.barcode.Barcode/>
+    </MMI>
+    <PAT>
+        <com.motorola.motocit.Test_FpcConnectionTest/>
+        <com.motorola.motocit.touchscreen.Touch_MXT224/>
+        <com.motorola.motocit.vibrator.VibratorTest/>
+        <com.motorola.motocit.display.testPatterns.WhiteWithBlackBorder/>
+        <com.motorola.motocit.hostmode.Hostmode/>
+        <com.motorola.motocit.audio.AudioLoopBack/>
+    </PAT>
+    <!--common items of cqa sequence mode for bar phone:IKTCMD-2527,2022.03.09 start-->
+    <SEQUENCE>
+        <!--1--><com.motorola.motocit.headset.HeadsetInfo/>
+        <!--2--><com.motorola.motocit.audio.AudioLoopBack/>
+                <com.motorola.motocit.nfc.NFCTest/>
+        <!--5--><com.motorola.motocit.key.KeyTest/>
+        <!--    <com.motorola.motocit.led.ChargeLED/> -->
+        <!--6--><com.motorola.motocit.bluetooth.BluetoothMac/>
+        <!--7--><com.motorola.motocit.bluetooth.BluetoothScan/>
+        <!--8--><com.motorola.motocit.wlan.ScanNetwork/>
+        <!--&lt;!&ndash;9&ndash;&gt;<com.motorola.motocit.wlan.WiFiMac/>-->
+        <!--10--><com.motorola.motocit.audio.AudioEar/>
+        <!--11--><com.motorola.motocit.audio.AudioPlayMediaFile2/>
+        <!--12--><com.motorola.motocit.version.Version/>
+        <!--13--><com.motorola.motocit.display.testPatterns.Medium/>
+        <!--14--><com.motorola.motocit.display.testPatterns.Bright/>
+        <!--15--><com.motorola.motocit.display.testPatterns.Grayscale/>
+        <!--16--><com.motorola.motocit.display.testPatterns.BlackPattern/>
+        <!--17--><com.motorola.motocit.display.testPatterns.WhiteWithBlackBorder/>
+        <!--18--><com.motorola.motocit.display.testPatterns.BlackWithWhiteBorder2/>
+        <!--19--><com.motorola.motocit.touchscreen.Touch_MXT224/>
+        <!--20--><com.motorola.motocit.light.FrontLight/>
+        <!--21--><com.motorola.motocit.proximity.Proximity/>
+                 <com.motorola.motocit.sensor.AccelGyroMagSensor/>
+                 <com.motorola.motocit.dualfps.DualFodSelfTest/>
+                 <com.motorola.motocit.dualfps.DualFodCheckCalData/>
+        <!--25--><com.motorola.motocit.capsense.CapsenseMul/>
+        <!--26--><com.motorola.motocit.vibrator.VibratorTest/>
+        <!--27--><com.motorola.motocit.camera2.Front1ViewfinderStrobe/>
+        <!--28--><com.motorola.motocit.camera2.Front1VideoCapture/>
+        <!--29--><com.motorola.motocit.camera2.Front1Viewfinder/>
+        <!--30--><com.motorola.motocit.camera2.Rear1ViewfinderStrobe/>
+        <!--31--><com.motorola.motocit.camera2.Rear1VideoCapture/>
+        <!--32--><com.motorola.motocit.camera2.Rear1Viewfinder/>
+        <!--33--><com.motorola.motocit.camera2.Rear1ViewfinderTorch/>
+        <!--34--><com.motorola.motocit.camera2.Rear2ViewfinderStrobe/>
+        <!--35--><com.motorola.motocit.camera2.Rear2VideoCapture/>
+        <!--36--><com.motorola.motocit.camera2.Rear2Viewfinder/>
+        <!--37--><com.motorola.motocit.camera2.Rear3ViewfinderStrobe/>
+        <!--38--><com.motorola.motocit.camera2.Rear3VideoCapture/>
+        <!--39--><com.motorola.motocit.camera2.Rear3Viewfinder/>
+        <!--41--><com.motorola.motocit.gps.GPS/>
+        <!--42--><com.motorola.motocit.hostmode.Hostmode/>
+                 <com.motorola.motocit.wirelesscharge.WirelessChargingInfo/>
+        <!--43--><com.motorola.motocit.battery.BatteryInfo/>
+                 <com.motorola.motocit.battery.BatteryLotXInfo/>
+        <!--44--><com.motorola.motocit.usb.UsbTypeC/>
+        <!--45--><com.motorola.motocit.simcard.SIMCard/>
+                 <com.motorola.motocit.barcode.Barcode/>
+    </SEQUENCE>
+
+    <SEQUENCE-USER>
+        <com.motorola.motocit.audio.AudioLoopBack/>
+        <com.motorola.motocit.barcode.Barcode/>
+        <com.motorola.motocit.camera2.Front1ViewfinderStrobe/>
+        <com.motorola.motocit.camera2.Rear1ViewfinderStrobe/>
+        <com.motorola.motocit.camera2.Rear2ViewfinderStrobe/>
+        <com.motorola.motocit.camera2.Rear3ViewfinderStrobe/>
+        <com.motorola.motocit.display.testPatterns.WhiteWithBlackBorder/>
+        <com.motorola.motocit.dualfps.DualFodSelfTest/>
+        <com.motorola.motocit.nfc.NFCTest/>
+        <com.motorola.motocit.hostmode.Hostmode/>
+        <com.motorola.motocit.vibrator.VibratorTest/>
+        <com.motorola.motocit.wirelesscharge.WirelessChargingInfo/>
+        <com.motorola.motocit.battery.BatteryLotXInfo/>
+    </SEQUENCE-USER>
+    <!--common items of cqa sequence mode for bar phone:IKTCMD-2527,2022.03.09 stop-->
+    <runin_config>
+        <item name="battery_lower_limit" enable="true" data="50" />
+        <item name="battery_upper_limit" enable="true" data="60" />
+        <item name="camera_0" enable="true" />
+        <item name="camera_1" enable="true" />
+        <item name="camera_2" enable="true" />
+        <item name="camera_3" enable="true" />
+        <item name="camera_4" enable="false" />
+        <item name="camera_5" enable="false" />
+        <item name="camera_6" enable="false" />
+        <item name="camera_7" enable="false" />
+        <item name="camera_0_flash" enable="true" />
+        <item name="camera_1_flash" enable="false" />
+        <item name="camera_2_flash" enable="false" />
+        <item name="camera_3_flash" enable="false" />
+        <item name="camera_4_flash" enable="false" />
+        <item name="camera_5_flash" enable="false" />
+        <item name="camera_6_flash" enable="false" />
+        <item name="camera_7_flash" enable="false" />
+        <item name="fps_selftest" enable="true" data="DUALFOD" />
+        <item name="fps_chekerboard" enable="false" />
+        <item name="fps_r_selftest" enable="false" />
+        <item name="fps_r_chekerboard" enable="false" />
+        <item name="tp_selftest" enable="false" />
+        <item name="mic_2" enable="true"/>
+        <item name="mic_3" enable="true"/>
+        <item name="mic_4" enable="false"/>
+        <item name="mic_5" enable="false"/>
+        <item name="sensor_accelerometer" enable="true" />
+        <item name="sensor_gravity" enable="true" />
+        <item name="sensor_gyroscope" enable="true" />
+        <item name="sensor_light" enable="true" />
+        <item name="sensor_magnetic" enable="true" />
+        <item name="sensor_proximity" enable="true" />
+        <item name="speaker_2" enable="true" />
+        <item name="barometer" enable="false" />
+        <item name="cap_sensor" enable="true" />
+        <item name="boot_capsensor" enable="true"/>
+        <item name="nfc" enable="true" />
+        <item name="cli_display" enable="false" />
+    </runin_config>
+
+</CONFIG>
